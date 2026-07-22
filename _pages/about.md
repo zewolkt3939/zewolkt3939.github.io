@@ -34,14 +34,14 @@ I enjoy understanding how systems work, identifying security weaknesses, and bui
 
 Currently, I am focusing on:
 
-Network Security and CCNA
-Web Application Security with PortSwigger Web Security Academy
-Hack The Box labs
-Linux and Docker
-Python for security automation
-WordPress security research and vulnerability analysis
-SIEM technologies, including Wazuh, Elastic Stack, and Splunk
-AWS cloud fundamentals
+- Network Security and CCNA
+- Web Application Security with PortSwigger Web Security Academy
+- Hack The Box labs
+- Linux and Docker
+- Python for security automation
+- WordPress security research and vulnerability analysis
+- SIEM technologies, including Wazuh, Elastic Stack, and Splunk
+- AWS cloud fundamentals
 
 I believe that continuous learning and practical experience are the foundation of becoming a skilled security professional. This portfolio documents my projects, lab environments, technical write-ups, and research as I continue developing my expertise in cybersecurity.
 
