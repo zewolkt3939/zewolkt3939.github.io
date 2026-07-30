@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-07-10 10:00:00+0700
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Updated my portfolio structure to better highlight cybersecurity learning roadmap and practical lab work.
