@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2026-05-18 19:30:00+0700
 inline: true
 related_posts: false
 ---
-
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Completed a new AWS practice round focused on EC2 deployment, Security Groups, and Linux server baseline hardening.

@@ -2,47 +2,52 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Cybersecurity Student • Vietnam
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Cybersecurity Student (Vietnam)</p>
+    <p>Expected graduation: approximately 1 year</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
-About Me
+I am Bao Nguyen, a Vietnamese cybersecurity student focused on building practical skills for security engineering, cloud security, and network defense roles.
 
-Hi! I'm Bao Nguyen, a Cybersecurity student with a strong interest in Network Security, Web Application Security, Security Operations (SOC), and Vulnerability Research.
+I learn by building systems, breaking them, fixing them, and documenting each step. My core interests are cybersecurity, Linux, networking, cloud infrastructure, and security automation.
 
-I enjoy understanding how systems work, identifying security weaknesses, and building practical solutions to improve their resilience. My learning approach is highly hands-on, and I regularly practice through home lab environments, capture-the-flag challenges, and real-world security scenarios.
+## Current focus
+- **Networking (CCNA track):** OSI, TCP/IP, VLANs, Inter-VLAN routing, STP/RSTP, EtherChannel, OSPF, NAT, ACL, DHCP, DNS, QoS, SNMP, wireless basics.
+- **Linux operations:** Bash, SSH, permissions, services, package management, process and storage management, network configuration, firewall and iptables.
+- **AWS fundamentals:** EC2, IAM, VPC, Security Groups, Elastic IP, regions, availability zones, shared responsibility model.
+- **Web security:** PortSwigger Web Security Academy labs on SQLi, XSS, CSRF, XXE, SSRF, auth, access control, business logic, sessions, OAuth, and JWT.
+- **Blue team foundations:** SIEM workflows with Wazuh, Elastic Stack, Splunk, and Sentinel concepts for monitoring and incident investigation.
 
-Currently, I am focusing on:
+## Learning philosophy
+- Learn by building.
+- Learn through failure.
+- Master fundamentals before advanced topics.
+- Automate repetitive work whenever possible.
+- Treat security as a default design requirement.
+- Stay consistent and keep improving.
 
-- Network Security and CCNA
-- Web Application Security with PortSwigger Web Security Academy
-- Hack The Box labs
-- Linux and Docker
-- Python for security automation
-- WordPress security research and vulnerability analysis
-- SIEM technologies, including Wazuh, Elastic Stack, and Splunk
-- AWS cloud fundamentals
+## Home lab and hands-on work
+My home lab is where I practice most of my skills. I frequently work with VMware, Docker, Linux distributions (Kali, Ubuntu, Arch, CachyOS), WordPress, Apache, Git/GitHub, SSH, and AWS EC2.
 
-I believe that continuous learning and practical experience are the foundation of becoming a skilled security professional. This portfolio documents my projects, lab environments, technical write-ups, and research as I continue developing my expertise in cybersecurity.
+I use this lab to practice Linux administration, networking experiments, cloud deployments, web security testing, and security tool evaluation.
 
-I'm always open to learning from the community, collaborating on security-related projects, and connecting with professionals who share the same passion for cybersecurity.
+## Career direction
+I am preparing for internship and entry-level opportunities in cybersecurity, cloud security, security engineering, and infrastructure-focused roles. I bring a calm, analytical, and hands-on approach to solving technical problems and I am committed to continuous learning.

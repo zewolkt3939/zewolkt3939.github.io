@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-07-20 09:00:00+0700
 inline: true
 related_posts: false
 ---
-
-A simple inline announcement.
+Started a focused CCNA lab cycle covering VLAN segmentation, Inter-VLAN routing, STP, and OSPF troubleshooting.

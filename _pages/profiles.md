@@ -1,28 +1,21 @@
 ---
-layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+layout: page
+permalink: /timeline/
+title: timeline
+description: Learning timeline and current focus progression.
 nav: true
 nav_order: 7
-
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
 ---
+
+## Timeline
+- **Foundation phase:** Linux daily usage, shell workflows, and network fundamentals.
+- **Lab phase:** Built Docker and VMware home lab environments for repeatable practice.
+- **Web security phase:** Active PortSwigger lab practice and HTTP/session security study.
+- **Cloud phase:** AWS EC2/VPC/Security Group deployment and hardening practice.
+- **Current phase:** Integrating networking, Linux, cloud, and SOC-style monitoring into one workflow.
+
+## Current priorities
+1. Strengthen CCNA networking fundamentals with hands-on labs.
+2. Improve Linux administration depth for server security operations.
+3. Build cloud-security-first deployment habits in AWS.
+4. Continue web security and defensive monitoring practice.
