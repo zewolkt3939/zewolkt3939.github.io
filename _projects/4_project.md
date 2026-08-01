@@ -2,7 +2,7 @@
 layout: page
 title: CCNA Networking Lab
 description: Hands-on routing and switching lab focused on CCNA-level networking concepts.
-img: 
+img:
 importance: 4
 category: infrastructure
 ---
@@ -10,6 +10,7 @@ category: infrastructure
 I built repeatable networking labs to strengthen protocol-level understanding.
 
 ## Topics practiced
+
 - VLAN design and Inter-VLAN routing
 - STP/RSTP behavior and troubleshooting
 - OSPF fundamentals

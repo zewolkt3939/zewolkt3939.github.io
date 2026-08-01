@@ -10,6 +10,7 @@ category: infrastructure
 I maintain practical notes on tools and workflows I use regularly.
 
 ## Tooling scope
+
 - Networking: Cisco Packet Tracer, Wireshark, tcpdump
 - Security: Burp Suite, Nmap, Gobuster, FFUF, John the Ripper, Responder
 - Dev and ops: VS Code, Git, GitHub, Docker, Linux, AWS

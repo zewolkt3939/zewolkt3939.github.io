@@ -10,6 +10,7 @@ category: cybersecurity
 This lab helps me test web security ideas in a controlled environment.
 
 ## Practice areas
+
 - Docker service setup and troubleshooting
 - Apache and WordPress deployment flow
 - Basic hardening checks and log review

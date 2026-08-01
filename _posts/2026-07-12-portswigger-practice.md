@@ -6,9 +6,11 @@ description: My workflow for learning web vulnerabilities with repeatable testin
 tags: [web-security, portswigger, burp-suite, practice]
 categories: [security]
 ---
+
 PortSwigger labs help me connect theory with practical exploitation and mitigation.
 
 My workflow is simple:
+
 1. Reproduce the vulnerable behavior.
 2. Confirm the root cause in HTTP requests and responses.
 3. Write down how to fix or prevent it.

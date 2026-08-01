@@ -10,6 +10,7 @@ category: infrastructure
 Linux is part of my daily workflow.
 
 ## What I practice
+
 - Bash and SSH workflows
 - File permissions and process control
 - systemd and service lifecycle management

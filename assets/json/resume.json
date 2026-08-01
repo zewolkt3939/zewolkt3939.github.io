@@ -48,10 +48,7 @@
       "endDate": "Expected graduation in ~1 year",
       "score": "",
       "courses": [],
-      "highlights": [
-        "Hands-on learning through practical labs and self-study.",
-        "Continuous technical documentation and improvement."
-      ]
+      "highlights": ["Hands-on learning through practical labs and self-study.", "Continuous technical documentation and improvement."]
     }
   ],
   "awards": [],
@@ -75,46 +72,19 @@
       "name": "Cybersecurity",
       "level": "Learning",
       "icon": "fa-solid fa-shield-halved",
-      "keywords": [
-        "Network Security",
-        "Linux Security",
-        "Web Security",
-        "Authentication",
-        "Authorization",
-        "Encryption",
-        "PKI",
-        "VPN"
-      ]
+      "keywords": ["Network Security", "Linux Security", "Web Security", "Authentication", "Authorization", "Encryption", "PKI", "VPN"]
     },
     {
       "name": "Networking",
       "level": "Learning",
       "icon": "fa-solid fa-network-wired",
-      "keywords": [
-        "OSI",
-        "TCP/IP",
-        "VLAN",
-        "OSPF",
-        "NAT",
-        "ACL",
-        "DHCP",
-        "DNS"
-      ]
+      "keywords": ["OSI", "TCP/IP", "VLAN", "OSPF", "NAT", "ACL", "DHCP", "DNS"]
     },
     {
       "name": "Linux and Cloud",
       "level": "Daily Practice",
       "icon": "fa-solid fa-server",
-      "keywords": [
-        "Bash",
-        "SSH",
-        "systemd",
-        "iptables",
-        "Docker",
-        "AWS EC2",
-        "IAM",
-        "VPC"
-      ]
+      "keywords": ["Bash", "SSH", "systemd", "iptables", "Docker", "AWS EC2", "IAM", "VPC"]
     }
   ],
   "languages": [
@@ -133,16 +103,7 @@
     {
       "name": "Technical Interests",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Cybersecurity",
-        "Linux",
-        "Cloud",
-        "AWS",
-        "Networking",
-        "Infrastructure",
-        "Automation",
-        "Home Labs"
-      ]
+      "keywords": ["Cybersecurity", "Linux", "Cloud", "AWS", "Networking", "Infrastructure", "Automation", "Home Labs"]
     }
   ],
   "references": [],
@@ -150,20 +111,14 @@
     {
       "name": "Portfolio Website",
       "summary": "GitHub Pages portfolio documenting my cybersecurity learning journey.",
-      "highlights": [
-        "Continuous updates with Git/GitHub",
-        "Career-focused content"
-      ],
+      "highlights": ["Continuous updates with Git/GitHub", "Career-focused content"],
       "startDate": "",
       "endDate": ""
     },
     {
       "name": "Docker WordPress Lab",
       "summary": "Repeatable local environment for web security and Linux practice.",
-      "highlights": [
-        "Dockerized workflows",
-        "Apache/WordPress deployment practice"
-      ],
+      "highlights": ["Dockerized workflows", "Apache/WordPress deployment practice"],
       "startDate": "",
       "endDate": ""
     }

@@ -10,6 +10,7 @@ category: cybersecurity
 This project focuses on defensive visibility and investigation habits.
 
 ## Learning scope
+
 - Security monitoring fundamentals
 - Log collection and normalization concepts
 - Basic alert triage and investigation flow

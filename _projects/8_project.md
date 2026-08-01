@@ -10,6 +10,7 @@ category: cybersecurity
 I use lightweight automation to reduce repetitive manual work.
 
 ## Typical use cases
+
 - Quick system checks
 - Network reconnaissance helpers
 - Workflow cleanup tasks

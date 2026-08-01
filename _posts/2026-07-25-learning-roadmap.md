@@ -7,6 +7,7 @@ tags: [roadmap, cybersecurity, networking, linux, aws]
 categories: [learning]
 featured: true
 ---
+
 My current roadmap is built around consistent, hands-on practice.
 
 I split my study into four tracks: networking (CCNA topics), Linux operations, AWS fundamentals, and web security labs.

@@ -8,6 +8,7 @@ nav_order: 7
 ---
 
 ## Timeline
+
 - **Foundation phase:** Linux daily usage, shell workflows, and network fundamentals.
 - **Lab phase:** Built Docker and VMware home lab environments for repeatable practice.
 - **Web security phase:** Active PortSwigger lab practice and HTTP/session security study.
@@ -15,6 +16,7 @@ nav_order: 7
 - **Current phase:** Integrating networking, Linux, cloud, and SOC-style monitoring into one workflow.
 
 ## Current priorities
+
 1. Strengthen CCNA networking fundamentals with hands-on labs.
 2. Improve Linux administration depth for server security operations.
 3. Build cloud-security-first deployment habits in AWS.
