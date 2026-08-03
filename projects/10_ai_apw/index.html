@@ -1,0 +1,227 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> AI-Powered Alert Prioritization for Wazuh | Bao Truong Nguyen | Cybersecurity Portfolio </title> <meta name="author" content="Bao Truong Nguyen"> <meta name="description" content="Capstone project that turns Wazuh and Suricata telemetry into prioritized, correlated SOC alerts with LLM-assisted triage and Telegram notifications."> <meta name="keywords" content="Bao Truong Nguyen, cybersecurity student, Vietnam, Linux, networking, AWS, cloud security, web security, security operations, home lab"> <meta property="og:site_name" content="Bao Truong Nguyen | Cybersecurity Portfolio"> <meta property="og:type" content="website"> <meta property="og:title" content="Bao Truong Nguyen | Cybersecurity Portfolio | AI-Powered Alert Prioritization for Wazuh"> <meta property="og:url" content="https://zewolkt3939.github.io/projects/10_ai_apw/"> <meta property="og:description" content="Capstone project that turns Wazuh and Suricata telemetry into prioritized, correlated SOC alerts with LLM-assisted triage and Telegram notifications."> <meta property="og:image" content="assets/img/prof_pic.jpg"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="AI-Powered Alert Prioritization for Wazuh"> <meta name="twitter:description" content="Capstone project that turns Wazuh and Suricata telemetry into prioritized, correlated SOC alerts with LLM-assisted triage and Telegram notifications."> <meta name="twitter:image" content="assets/img/prof_pic.jpg"> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Bao Truong Nguyen"
+        },
+        "url": "https://zewolkt3939.github.io/projects/10_ai_apw/",
+        "@type": "WebSite",
+        "description": "Capstone project that turns Wazuh and Suricata telemetry into prioritized, correlated SOC alerts with LLM-assisted triage and Telegram notifications.",
+        "headline": "AI-Powered Alert Prioritization for Wazuh",
+        
+        "sameAs": ["https://github.com/zewolkt3939"],
+        
+        "name": "Bao Truong Nguyen",
+        "@context": "https://schema.org"
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%9B%A1%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://zewolkt3939.github.io/projects/10_ai_apw/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Bao Truong Nguyen | Cybersecurity Portfolio </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">Home </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">journal </a> </li> <li class="nav-item "> <a class="nav-link" href="/research/">focus </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">GitHub </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/roadmap/">roadmap </a> </li> <li class="nav-item "> <a class="nav-link" href="/timeline/">learning path </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">AI-Powered Alert Prioritization for Wazuh</h1> <p class="post-description">Capstone project that turns Wazuh and Suricata telemetry into prioritized, correlated SOC alerts with LLM-assisted triage and Telegram notifications.</p> </header> <article> <p><strong>AI-APW</strong> is a team capstone project at the International School, Duy Tan University. It adds an intelligent triage layer to a Wazuh deployment so SOC analysts can investigate the most relevant alerts first instead of treating every event as equally urgent.</p> <p>My contributions span <strong>backend development, AI-pipeline development, and DevOps/system integration</strong>. I worked on the services that collect and normalize alerts, connect the lab components, apply triage logic, and deliver actionable notifications.</p> <h2 id="problem-and-approach">Problem and approach</h2> <p>High volumes of security alerts create noise and slow down investigation. AI-APW keeps the Wazuh detection layer in place, then enriches its alerts with normalized context, correlation, scoring, and a human-readable notification.</p> <p>The pipeline does not silently discard events. Potential false positives are labelled for analyst review, while critical rules, high-confidence threats, and correlated attack campaigns can override a low model score and still notify the SOC.</p> <h2 id="lab-architecture">Lab architecture</h2> <p>The controlled lab separated the web workload from the security and monitoring services. Traffic passed through pfSense with Suricata, while Wazuh collected both network and host/application telemetry before the AI-APW pipeline processed it.</p> <p><img src="/assets/img/projects/ai-apw-architecture.png" alt="AI-APW lab topology: attacker, pfSense, web server, Wazuh, and AI/SOC services"></p> <p><em>Figure: project lab topology and data flow, recreated from the capstone implementation evidence.</em></p> <table> <thead> <tr> <th>Layer</th> <th>Components and responsibility</th> </tr> </thead> <tbody> <tr> <td>Attack simulation</td> <td>Kali Linux generated authorized test traffic against DVWA.</td> </tr> <tr> <td>Network boundary</td> <td>pfSense forwarded lab traffic and Suricata produced network IDS alerts.</td> </tr> <tr> <td>Application workload</td> <td>Ubuntu 22.04 hosted DVWA and a Wazuh agent to expose host and web-access signals.</td> </tr> <tr> <td>SIEM</td> <td>Wazuh Manager and Indexer ingested, analyzed, and indexed alerts in <code class="language-plaintext highlighter-rouge">wazuh-alerts-*</code>.</td> </tr> <tr> <td>Triage and response</td> <td>A Python pipeline normalized, correlated, scored, and routed prioritized results to Telegram.</td> </tr> </tbody> </table> <h2 id="alert-triage-pipeline">Alert-triage pipeline</h2> <ol> <li> <strong>Collect:</strong> Query new alerts from the Wazuh Indexer over HTTPS, using dynamic lookback and agent-aware polling to reduce missed events and uneven load.</li> <li> <strong>Filter and normalize:</strong> Include configured custom rules and always re-evaluate higher-level events. Raw alerts are mapped to a common structure containing timestamp, agent, rule, network, HTTP, Suricata, and identity fields.</li> <li> <strong>Enrich and correlate:</strong> Normalize attack types, group related events by source, destination, and attack type, then identify possible multi-stage campaigns.</li> <li> <strong>Score:</strong> Combine a deterministic heuristic score with LLM-assisted analysis. The heuristic accounts for Wazuh rule level, attack type, correlation size, and indicators such as security-tool user agents.</li> <li> <strong>Notify:</strong> Apply critical-rule and campaign overrides, then deliver an evidence-rich Telegram alert with IOCs, context, correlation information, and recommended SOC actions.</li> </ol> <h2 id="technology-and-implementation-details">Technology and implementation details</h2> <ul> <li> <strong>Detection and telemetry:</strong> Wazuh 4.x, Wazuh agents, pfSense 2.7.2, Suricata, and EVE JSON logs.</li> <li> <strong>Pipeline:</strong> Python service launched through <code class="language-plaintext highlighter-rouge">bin/run_pipeline.py</code>, with modular collector, normalization, correlation, heuristic scoring, LLM triage, and notification components.</li> <li> <strong>Configuration:</strong> environment-based settings for Wazuh API/Indexer endpoints, polling interval, rule filters, correlation/deduplication windows, and notification credentials. Secrets are supplied at deployment time rather than stored in source control.</li> <li> <strong>Operational guardrails:</strong> HTTPS integration with Wazuh, agent-balanced queries, alert-audit logging, false-positive labelling rather than deletion, and a plain-text fallback if Telegram Markdown formatting fails.</li> </ul> <h2 id="deployment-workflow">Deployment workflow</h2> <ol> <li>Provision the isolated lab components: pfSense/Suricata, an Ubuntu web server with DVWA, Wazuh, and an AI-APW host.</li> <li>Install and connect Wazuh agents on the firewall and web server; verify that firewall, IDS, system, and web-access logs are searchable in <code class="language-plaintext highlighter-rouge">wazuh-alerts-*</code>.</li> <li>Configure Suricata logging and lab-only signatures, then verify that telemetry crosses the firewall, SIEM, and indexer as expected.</li> <li>Provide the pipeline configuration and secrets through environment variables; configure filtering levels, correlation windows, Wazuh access, LLM access, and Telegram delivery.</li> <li>Start the pipeline, validate its startup logs and connectivity, then run controlled attack simulations to verify detection, prioritization, and notification.</li> </ol> <h2 id="demonstration-evidence">Demonstration evidence</h2> <p>The following screenshots are taken from the project test documentation. They show the same test chain from alert discovery through operational notification.</p> <p><img src="/assets/img/projects/ai-apw-wazuh-threat-hunting.png" alt="Wazuh Threat Hunting view with Suricata-derived alerts indexed for the pfSense agent"></p> <p><em>Wazuh Threat Hunting confirms that Suricata-derived alerts are indexed and queryable for investigation.</em></p> <p><img src="/assets/img/projects/ai-apw-pipeline-logs.png" alt="AI-APW pipeline logs showing processing, triage completion, and Telegram delivery"></p> <p><em>Pipeline logs show alert processing, triage completion, and notification handling.</em></p> <p><img src="/assets/img/projects/ai-apw-telegram-alert.png" alt="Telegram notification showing a high-priority SQL injection alert with evidence"></p> <p><em>The SOC notification carries severity, evidence, context, and recommended follow-up actions.</em></p> <h2 id="validation-results">Validation results</h2> <p>The end-to-end validation used an authorized SQL injection campaign with <code class="language-plaintext highlighter-rouge">sqlmap</code> against DVWA in the lab. Suricata detected the network behavior, Wazuh indexed both network and host-side signals, and AI-APW normalized, scored, correlated, and notified on the event.</p> <table> <thead> <tr> <th>Metric in the documented lab test</th> <th>Result</th> </tr> </thead> <tbody> <tr> <td>Alert detection rate</td> <td>100% for the test scenarios</td> </tr> <tr> <td>Estimated false-positive rate</td> <td>Approximately 12%</td> </tr> <tr> <td>Detection-to-notification latency</td> <td>3-7 seconds on average; approximately 10 seconds worst case</td> </tr> <tr> <td>Telegram delivery rate</td> <td>100% during the test window</td> </tr> </tbody> </table> <p>These are <strong>controlled-lab results</strong>, not production benchmarks. The documentation also records practical improvements for future iterations: enforce a rule-level severity baseline when LLM labels are inconsistent, improve web-log decoder mapping so client IP context is preserved, and continue validating notification formatting.</p> <h2 id="what-this-project-demonstrates">What this project demonstrates</h2> <ul> <li>Building and integrating a multi-layer SOC lab across firewall, IDS, web server, SIEM, and AI-assisted automation.</li> <li>Translating raw security telemetry into structured, explainable analyst context.</li> <li>Applying safe alert-triage guardrails so high-impact attacks are not hidden by model or filter decisions.</li> <li>Testing an end-to-end detection workflow with reproducible evidence rather than relying on a dashboard-only demo.</li> </ul> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Bao Truong Nguyen. Built and maintained by Bao Truong Nguyen with <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> and <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-home",
+    title: "Home",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-journal",
+          title: "journal",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-focus",
+          title: "focus",
+          description: "Technical areas currently being developed through structured study and hands-on labs.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Selected hands-on labs in cybersecurity, Linux, networking, and AWS.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-github",
+          title: "GitHub",
+          description: "Code, notes, and portfolio work documenting my cybersecurity and infrastructure learning journey.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Cybersecurity student profile, skills, and current technical learning roadmap.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-roadmap",
+          title: "roadmap",
+          description: "Current learning priorities across networking, Linux, cloud, and security operations.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/roadmap/";
+          },
+        },{id: "nav-learning-path",
+          title: "learning path",
+          description: "A practical progression from infrastructure fundamentals to applied security work.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/timeline/";
+          },
+        },{id: "post-my-current-cybersecurity-learning-roadmap",
+        
+          title: "My current cybersecurity learning roadmap",
+        
+        description: "A practical roadmap across networking, Linux, cloud, and security operations.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/learning-roadmap/";
+          
+        },
+      },{id: "post-how-i-use-portswigger-labs-for-web-security-practice",
+        
+          title: "How I use PortSwigger labs for web security practice",
+        
+        description: "My workflow for learning web vulnerabilities with repeatable testing and notes.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/portswigger-practice/";
+          
+        },
+      },{id: "post-home-lab-notes-linux-docker-and-cloud-practice",
+        
+          title: "Home lab notes: Linux, Docker, and cloud practice",
+        
+        description: "A snapshot of my home lab setup and why it is central to my cybersecurity learning.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/home-lab-notes/";
+          
+        },
+      },{id: "news-completed-a-new-aws-practice-round-focused-on-ec2-deployment-security-groups-and-linux-server-baseline-hardening",
+          title: 'Completed a new AWS practice round focused on EC2 deployment, Security Groups, and...',
+          description: "",
+          section: "News",},{id: "news-home-lab-update-docker-apache-and-wordpress-security-practice",
+          title: 'Home lab update: Docker, Apache, and WordPress security practice',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "news-started-a-focused-ccna-lab-cycle-covering-vlan-segmentation-inter-vlan-routing-stp-and-ospf-troubleshooting",
+          title: 'Started a focused CCNA lab cycle covering VLAN segmentation, Inter-VLAN routing, STP, and...',
+          description: "",
+          section: "News",},{id: "projects-ai-powered-alert-prioritization-for-wazuh",
+          title: 'AI-Powered Alert Prioritization for Wazuh',
+          description: "Capstone project that turns Wazuh and Suricata telemetry into prioritized, correlated SOC alerts with LLM-assisted triage and Telegram notifications.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_ai_apw/";
+            },},{id: "projects-portfolio-website",
+          title: 'Portfolio Website',
+          description: "A GitHub Pages portfolio that documents projects, technical notes, and my security-learning progress.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-docker-wordpress-security-lab",
+          title: 'Docker WordPress Security Lab',
+          description: "A repeatable local WordPress and Apache environment for authorized web-security practice and Linux operations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-aws-practice-environment",
+          title: 'AWS Practice Environment',
+          description: "An EC2 and VPC environment for learning how cloud infrastructure and security controls work together.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-ccna-networking-lab",
+          title: 'CCNA Networking Lab',
+          description: "Hands-on routing and switching labs that strengthen CCNA-level networking and network-security fundamentals.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-linux-administration-lab",
+          title: 'Linux Administration Lab',
+          description: "A daily Linux practice environment for server operations, service management, and security-minded system administration.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-web-security-practice-track",
+          title: 'Web Security Practice Track',
+          description: "A structured PortSwigger-based practice track for web application security concepts and testing workflows.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-soc-and-log-analysis-practice",
+          title: 'SOC and Log Analysis Practice',
+          description: "Introductory blue-team exercises focused on monitoring, log analysis, alert triage, and investigation habits.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-security-automation-scripts",
+          title: 'Security Automation Scripts',
+          description: "Small Python and Bash utilities for repeatable security and infrastructure tasks.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
+            },},{id: "projects-tooling-and-workflow-notes",
+          title: 'Tooling and Workflow Notes',
+          description: "A maintained reference of the tools and repeatable workflows used throughout my cybersecurity learning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
+            },},{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/zewolkt3939", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
