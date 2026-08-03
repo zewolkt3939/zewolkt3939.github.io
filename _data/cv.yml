@@ -35,6 +35,12 @@ cv:
           - Uses AWS EC2 and VPC components to practice identity, network controls, and server baseline hardening.
 
     Projects:
+      - name: AI-Powered Alert Prioritization for Wazuh (AI-APW)
+        summary: Capstone project that prioritizes and correlates Wazuh and Suricata alerts with a Python triage pipeline, LLM-assisted analysis, and Telegram notifications.
+        highlights:
+          - Contributed to backend development, AI-pipeline development, and DevOps/system integration.
+          - Validated an end-to-end SQL injection scenario across network and host telemetry in a controlled lab.
+          - Documented a 3-7 second average detection-to-notification latency and 100% Telegram delivery during the test window.
       - name: Docker WordPress Security Lab
         summary: Repeatable local WordPress and Apache environment for web-security and Linux operations practice.
         highlights:

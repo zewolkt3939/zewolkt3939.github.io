@@ -2,7 +2,7 @@
 layout: page
 title: Web Security Practice Track
 description: A structured PortSwigger-based practice track for web application security concepts and testing workflows.
-importance: 6
+importance: 7
 category: cybersecurity
 ---
 

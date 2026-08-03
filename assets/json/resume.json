@@ -136,6 +136,17 @@
   "references": [],
   "projects": [
     {
+      "name": "AI-Powered Alert Prioritization for Wazuh (AI-APW)",
+      "summary": "Capstone project that prioritizes and correlates Wazuh and Suricata alerts with a Python triage pipeline, LLM-assisted analysis, and Telegram notifications.",
+      "highlights": [
+        "Backend development, AI-pipeline development, and DevOps/system integration",
+        "End-to-end SQL injection validation across network and host telemetry",
+        "3-7 second average detection-to-notification latency in the controlled test"
+      ],
+      "startDate": "2025-08-18",
+      "endDate": "2025-12-18"
+    },
+    {
       "name": "Docker WordPress Security Lab",
       "summary": "Repeatable local WordPress and Apache environment for web-security and Linux operations practice.",
       "highlights": [

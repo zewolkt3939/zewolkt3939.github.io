@@ -2,7 +2,7 @@
 layout: page
 title: AWS Practice Environment
 description: An EC2 and VPC environment for learning how cloud infrastructure and security controls work together.
-importance: 3
+importance: 4
 category: cloud
 ---
 

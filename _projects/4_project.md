@@ -2,7 +2,7 @@
 layout: page
 title: CCNA Networking Lab
 description: Hands-on routing and switching labs that strengthen CCNA-level networking and network-security fundamentals.
-importance: 4
+importance: 5
 category: infrastructure
 ---
 

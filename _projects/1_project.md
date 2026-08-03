@@ -2,7 +2,7 @@
 layout: page
 title: Portfolio Website
 description: A GitHub Pages portfolio that documents projects, technical notes, and my security-learning progress.
-importance: 1
+importance: 2
 category: infrastructure
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: SOC and Log Analysis Practice
 description: Introductory blue-team exercises focused on monitoring, log analysis, alert triage, and investigation habits.
-importance: 7
+importance: 8
 category: cybersecurity
 ---
 

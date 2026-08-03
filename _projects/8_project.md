@@ -2,7 +2,7 @@
 layout: page
 title: Security Automation Scripts
 description: Small Python and Bash utilities for repeatable security and infrastructure tasks.
-importance: 8
+importance: 9
 category: cybersecurity
 ---
 

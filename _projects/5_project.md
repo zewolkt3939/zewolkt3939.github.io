@@ -2,7 +2,7 @@
 layout: page
 title: Linux Administration Lab
 description: A daily Linux practice environment for server operations, service management, and security-minded system administration.
-importance: 5
+importance: 6
 category: infrastructure
 ---
 

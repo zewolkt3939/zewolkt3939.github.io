@@ -2,7 +2,7 @@
 layout: page
 title: Tooling and Workflow Notes
 description: A maintained reference of the tools and repeatable workflows used throughout my cybersecurity learning.
-importance: 9
+importance: 10
 category: infrastructure
 ---
 
