@@ -1,34 +1,28 @@
 ---
 layout: page
 permalink: /research/
-title: research
-description: Security research interests, current study areas, and technical topics under active practice.
+title: focus
+description: Technical areas currently being developed through structured study and hands-on labs.
 nav: true
 nav_order: 2
 ---
 
-## Research and learning interests
+## Current focus areas
 
-I am currently focused on practical cybersecurity learning rather than formal academic publication.
+I am focused on practical cybersecurity learning rather than formal academic research or publication. The areas below guide the labs, projects, and notes I publish on this site.
 
-My current research-oriented study areas include:
+### Secure networking and infrastructure
 
-- Network security architecture and secure segmentation
-- Linux hardening and operational security baselines
-- Web application vulnerability discovery and mitigation
-- Authentication, authorization, encryption, PKI, and VPN fundamentals
-- Cloud security controls in AWS environments
-- SIEM-based log analysis and incident investigation workflows
+- Network segmentation, routing, ACLs, NAT, DNS, and secure service operation.
+- Linux administration, baseline hardening, permissions, firewall configuration, and troubleshooting.
 
-## How I approach research
+### Application and cloud security
 
-- Build a reproducible lab scenario
-- Test assumptions with tools and packet/log evidence
-- Document findings, failures, and remediation steps
-- Convert lessons into repeatable checklists and scripts
+- Web application vulnerability discovery and mitigation in controlled labs.
+- Authentication, authorization, session management, OAuth, JWT, encryption, PKI, and VPN fundamentals.
+- AWS identity, network controls, and the shared-responsibility model.
 
-## Ongoing platforms
+### Security operations
 
-- PortSwigger Web Security Academy
-- Home lab security experiments
-- CCNA-aligned networking practice
+- Log collection, alert triage, and introductory investigation workflows.
+- Exposure to Wazuh, Elastic Stack, Splunk, and Microsoft Sentinel concepts.

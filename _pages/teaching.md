@@ -2,7 +2,7 @@
 layout: page
 permalink: /roadmap/
 title: roadmap
-description: Current cybersecurity learning roadmap across networking, Linux, cloud, and security operations.
+description: Current learning priorities across networking, Linux, cloud, and security operations.
 nav: true
 nav_order: 6
 ---

@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: GitHub profile and repositories documenting my cybersecurity and infrastructure learning journey.
+title: GitHub
+description: Code, notes, and portfolio work documenting my cybersecurity and infrastructure learning journey.
 nav: true
 nav_order: 4
 ---

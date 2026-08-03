@@ -1,19 +1,17 @@
 ---
 layout: page
 title: SOC and Log Analysis Practice
-description: Introductory blue-team exercises with SIEM tools and detection-oriented log analysis.
-img: assets/img/4.jpg
+description: Introductory blue-team exercises focused on monitoring, log analysis, alert triage, and investigation habits.
 importance: 7
 category: cybersecurity
 ---
 
-This project focuses on defensive visibility and investigation habits.
+This practice track develops the defensive mindset needed to turn system and security events into useful investigation evidence.
 
 ## Learning scope
 
-- Security monitoring fundamentals
-- Log collection and normalization concepts
-- Basic alert triage and investigation flow
-- Exposure to Wazuh, Elastic Stack, Splunk, and Sentinel concepts
+- Security-monitoring fundamentals and log-collection concepts
+- Log normalization, basic alert triage, and investigation flow
+- Exposure to Wazuh, Elastic Stack, Splunk, and Microsoft Sentinel concepts
 
-Goal: improve detection thinking and incident response foundations.
+The goal is to develop clear detection thinking and a methodical foundation for incident-response work.

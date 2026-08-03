@@ -1,20 +1,21 @@
 ---
 layout: page
 title: Portfolio Website
-description: GitHub Pages portfolio customized from an open-source template and continuously updated with my learning journey.
-img: assets/img/12.jpg
+description: A GitHub Pages portfolio that documents projects, technical notes, and my security-learning progress.
 importance: 1
 category: infrastructure
 ---
 
-This portfolio is my public technical notebook and project hub.
+This site is my public technical record. It gives recruiters and collaborators a clear view of the skills I am developing, the environments I build, and the way I document what I learn.
 
-## What I use
+## Built with
 
-- GitHub Pages for hosting
-- Git for version control and content updates
-- Structured documentation for projects, tools, and roadmap
+- GitHub Pages and Jekyll for hosting and publishing
+- Git and GitHub for version control and iterative updates
+- Structured pages for projects, learning priorities, and technical notes
 
-## Why I built it
+## What it demonstrates
 
-I wanted one place where recruiters and collaborators can quickly understand my technical direction, what I am building, and how I am improving over time.
+- Clear technical communication for a non-specialist reader
+- Consistent documentation of hands-on work
+- Ownership of a small production website from content to deployment

@@ -5,7 +5,7 @@
     "image": "",
     "email": "",
     "phone": "",
-    "summary": "Vietnamese cybersecurity student focused on hands-on learning across networking, Linux, AWS cloud, web security, and security automation.",
+    "summary": "Hands-on cybersecurity student building foundations in Linux, networking, AWS, web security, and security operations. Seeking internship and entry-level opportunities in security, cloud, and infrastructure.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -23,16 +23,16 @@
   },
   "work": [
     {
-      "name": "Personal Home Lab",
+      "name": "Independent Home Lab",
       "position": "Security and Infrastructure Lab Builder",
       "location": "Self-directed",
-      "startDate": "2024-01-01",
+      "startDate": "",
       "endDate": "",
-      "summary": "Built and maintained lab environments for cybersecurity, Linux, networking, and cloud practice.",
+      "summary": "Builds repeatable environments for cybersecurity, networking, Linux, and cloud practice.",
       "highlights": [
-        "Created Docker and VMware scenarios for service deployment and troubleshooting.",
-        "Practiced web security testing with WordPress and Apache stacks.",
-        "Deployed AWS EC2 environments for cloud networking and security control practice."
+        "Uses Docker and VMware environments for Linux administration, service deployment, and troubleshooting.",
+        "Maintains WordPress and Apache scenarios for authorized web-security testing and log review.",
+        "Uses AWS EC2 and VPC components to practice identity, network controls, and server baseline hardening."
       ]
     }
   ],
@@ -45,22 +45,25 @@
       "area": "Cybersecurity",
       "studyType": "Undergraduate Program",
       "startDate": "",
-      "endDate": "Expected graduation in ~1 year",
+      "endDate": "Expected graduation in approximately one year",
       "score": "",
       "courses": [],
-      "highlights": ["Hands-on learning through practical labs and self-study.", "Continuous technical documentation and improvement."]
+      "highlights": [
+        "Builds practical skills through self-directed labs alongside academic study.",
+        "Documents lab outcomes, troubleshooting notes, and next learning steps."
+      ]
     }
   ],
   "awards": [],
   "certificates": [
     {
-      "name": "CCNA Study Path (In Progress)",
+      "name": "CCNA Study Path (in progress)",
       "date": "",
       "issuer": "Self-study",
       "icon": "fa-solid fa-network-wired"
     },
     {
-      "name": "PortSwigger Web Security Academy (Ongoing Labs)",
+      "name": "PortSwigger Web Security Academy (ongoing labs)",
       "date": "",
       "issuer": "PortSwigger",
       "icon": "fa-solid fa-shield-halved"
@@ -69,22 +72,34 @@
   "publications": [],
   "skills": [
     {
-      "name": "Cybersecurity",
-      "level": "Learning",
-      "icon": "fa-solid fa-shield-halved",
-      "keywords": ["Network Security", "Linux Security", "Web Security", "Authentication", "Authorization", "Encryption", "PKI", "VPN"]
-    },
-    {
       "name": "Networking",
-      "level": "Learning",
+      "level": "Hands-on foundations",
       "icon": "fa-solid fa-network-wired",
-      "keywords": ["OSI", "TCP/IP", "VLAN", "OSPF", "NAT", "ACL", "DHCP", "DNS"]
+      "keywords": ["OSI", "TCP/IP", "VLANs", "Routing", "STP/RSTP", "EtherChannel", "OSPF", "NAT", "ACLs", "DHCP", "DNS", "QoS", "SNMP"]
     },
     {
-      "name": "Linux and Cloud",
-      "level": "Daily Practice",
+      "name": "Linux and Infrastructure",
+      "level": "Daily practice",
       "icon": "fa-solid fa-server",
-      "keywords": ["Bash", "SSH", "systemd", "iptables", "Docker", "AWS EC2", "IAM", "VPC"]
+      "keywords": ["Bash", "SSH", "Permissions", "systemd", "Package Management", "Process Management", "Firewall", "iptables", "Docker", "VMware"]
+    },
+    {
+      "name": "Cloud",
+      "level": "Hands-on foundations",
+      "icon": "fa-solid fa-cloud",
+      "keywords": ["AWS EC2", "IAM", "VPC", "Security Groups", "Elastic IP", "Regions", "Availability Zones", "Shared Responsibility"]
+    },
+    {
+      "name": "Application and Network Security",
+      "level": "Structured practice",
+      "icon": "fa-solid fa-shield-halved",
+      "keywords": ["Burp Suite", "Nmap", "Gobuster", "FFUF", "Wireshark", "tcpdump", "Authentication", "Authorization", "Web Security"]
+    },
+    {
+      "name": "Security Operations",
+      "level": "Introductory practice",
+      "icon": "fa-solid fa-magnifying-glass-chart",
+      "keywords": ["Wazuh", "Elastic Stack", "Splunk", "Microsoft Sentinel concepts", "Log Analysis", "Alert Triage"]
     }
   ],
   "languages": [
@@ -95,30 +110,53 @@
     },
     {
       "language": "English",
-      "fluency": "Working proficiency (TOEIC ~665)",
+      "fluency": "Working proficiency (TOEIC approximately 665); comfortable with technical documentation",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Technical Interests",
+      "name": "Technical interests",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Cybersecurity", "Linux", "Cloud", "AWS", "Networking", "Infrastructure", "Automation", "Home Labs"]
+      "keywords": [
+        "Cybersecurity",
+        "Linux",
+        "Cloud",
+        "AWS",
+        "Networking",
+        "Infrastructure",
+        "Automation",
+        "Web Security",
+        "Home Labs",
+        "Open Source",
+        "Technical Documentation"
+      ]
     }
   ],
   "references": [],
   "projects": [
     {
-      "name": "Portfolio Website",
-      "summary": "GitHub Pages portfolio documenting my cybersecurity learning journey.",
-      "highlights": ["Continuous updates with Git/GitHub", "Career-focused content"],
+      "name": "Docker WordPress Security Lab",
+      "summary": "Repeatable local WordPress and Apache environment for web-security and Linux operations practice.",
+      "highlights": [
+        "Docker service setup and troubleshooting",
+        "Apache and WordPress deployment",
+        "Controlled security testing and baseline hardening"
+      ],
       "startDate": "",
       "endDate": ""
     },
     {
-      "name": "Docker WordPress Lab",
-      "summary": "Repeatable local environment for web security and Linux practice.",
-      "highlights": ["Dockerized workflows", "Apache/WordPress deployment practice"],
+      "name": "AWS Practice Environment",
+      "summary": "EC2 and VPC environment for cloud networking and security-control practice.",
+      "highlights": ["IAM and least-privilege thinking", "Security Groups and network access rules", "Linux server baseline hardening"],
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "name": "CCNA Networking Lab",
+      "summary": "Hands-on routing and switching labs that reinforce core network-security concepts.",
+      "highlights": ["VLANs and inter-VLAN routing", "STP/RSTP, OSPF, NAT, and ACLs", "DHCP and DNS behavior in segmented networks"],
       "startDate": "",
       "endDate": ""
     }

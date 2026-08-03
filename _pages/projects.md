@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Hands-on cybersecurity, Linux, networking, and cloud lab projects.
+description: Selected hands-on labs in cybersecurity, Linux, networking, and AWS.
 nav: true
 nav_order: 3
 display_categories: [cybersecurity, cloud, infrastructure]

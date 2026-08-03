@@ -1,16 +1,16 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: Cybersecurity Student • Vietnam
+subtitle: Cybersecurity Student | Vietnam
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Cybersecurity Student (Vietnam)</p>
-    <p>Expected graduation: approximately 1 year</p>
+    <p>Based in Vietnam</p>
+    <p>Open to internship and entry-level opportunities</p>
 
 selected_papers: false
 social: true
@@ -26,33 +26,30 @@ latest_posts:
   limit: 3
 ---
 
-I am Bao Nguyen, a Vietnamese cybersecurity student focused on building practical skills for security engineering, cloud security, and network defense roles.
+I am **Bao Truong Nguyen**, a cybersecurity student in Vietnam building practical foundations for security engineering, cloud security, and infrastructure roles.
 
-I learn by building systems, breaking them, fixing them, and documenting each step. My core interests are cybersecurity, Linux, networking, cloud infrastructure, and security automation.
+I learn through deliberate, hands-on practice: I build a controlled environment, test how a system behaves, troubleshoot what breaks, and document the lessons. This portfolio is a focused record of that work across Linux, networking, AWS, web security, and security operations.
 
-## Current focus
+## What I am building
 
-- **Networking (CCNA track):** OSI, TCP/IP, VLANs, Inter-VLAN routing, STP/RSTP, EtherChannel, OSPF, NAT, ACL, DHCP, DNS, QoS, SNMP, wireless basics.
-- **Linux operations:** Bash, SSH, permissions, services, package management, process and storage management, network configuration, firewall and iptables.
-- **AWS fundamentals:** EC2, IAM, VPC, Security Groups, Elastic IP, regions, availability zones, shared responsibility model.
-- **Web security:** PortSwigger Web Security Academy labs on SQLi, XSS, CSRF, XXE, SSRF, auth, access control, business logic, sessions, OAuth, and JWT.
-- **Blue team foundations:** SIEM workflows with Wazuh, Elastic Stack, Splunk, and Sentinel concepts for monitoring and incident investigation.
+- **Secure infrastructure foundations** — Linux administration, networking, service operations, and security-minded troubleshooting.
+- **Cloud security fundamentals** — AWS EC2, IAM, VPC, Security Groups, and the shared-responsibility model.
+- **Application security practice** — structured PortSwigger labs covering common vulnerabilities, authentication, authorization, sessions, OAuth, and JWT.
+- **Defensive visibility** — introductory monitoring and investigation workflows with Wazuh, Elastic Stack, Splunk, and Microsoft Sentinel concepts.
 
-## Learning philosophy
+## Technical focus
 
-- Learn by building.
-- Learn through failure.
-- Master fundamentals before advanced topics.
-- Automate repetitive work whenever possible.
-- Treat security as a default design requirement.
-- Stay consistent and keep improving.
+- **Networking (CCNA track):** OSI, TCP/IP, VLANs, inter-VLAN routing, STP/RSTP, EtherChannel, OSPF, NAT, ACLs, DHCP, DNS, QoS, SNMP, and wireless basics.
+- **Linux and automation:** Bash, SSH, permissions, systemd, package and process management, storage, network configuration, firewall rules, iptables, Docker, and small Python scripts.
+- **AWS:** EC2, IAM, VPC, Security Groups, Elastic IP, regions, availability zones, and baseline hardening.
+- **Security tooling:** Burp Suite, Nmap, Gobuster, FFUF, Wireshark, tcpdump, Wazuh, and Elastic Stack.
 
-## Home lab and hands-on work
+## How I work
 
-My home lab is where I practice most of my skills. I frequently work with VMware, Docker, Linux distributions (Kali, Ubuntu, Arch, CachyOS), WordPress, Apache, Git/GitHub, SSH, and AWS EC2.
+My home lab is my primary learning environment. I use VMware, Docker, Linux distributions including Kali and Ubuntu, WordPress, Apache, Git/GitHub, SSH, and AWS EC2 to turn study topics into repeatable exercises.
 
-I use this lab to practice Linux administration, networking experiments, cloud deployments, web security testing, and security tool evaluation.
+For each exercise, I focus on understanding the system before testing it, working only in authorized environments, recording the root cause and mitigation, and repeating the workflow until I can explain it clearly.
 
 ## Career direction
 
-I am preparing for internship and entry-level opportunities in cybersecurity, cloud security, security engineering, and infrastructure-focused roles. I bring a calm, analytical, and hands-on approach to solving technical problems and I am committed to continuous learning.
+I am preparing for internship and entry-level opportunities in cybersecurity, cloud security, security engineering, and infrastructure-focused roles. I bring a calm, analytical approach, a habit of documentation, and the willingness to keep improving the fundamentals.

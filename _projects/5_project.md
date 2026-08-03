@@ -1,20 +1,19 @@
 ---
 layout: page
 title: Linux Administration Lab
-description: Daily Linux lab for server operations, service management, and security-focused system practice.
-img: assets/img/1.jpg
+description: A daily Linux practice environment for server operations, service management, and security-minded system administration.
 importance: 5
 category: infrastructure
 ---
 
-Linux is part of my daily workflow.
+Linux is part of my daily workflow and the foundation for much of my security practice.
 
 ## What I practice
 
 - Bash and SSH workflows
-- File permissions and process control
+- File permissions, user access, and process control
 - systemd and service lifecycle management
-- Network and firewall configuration
-- Package and storage management
+- Package, storage, and network configuration
+- Firewall and iptables fundamentals
 
-This lab improves both reliability and security habits.
+The goal is to build reliable operational habits alongside stronger security awareness.

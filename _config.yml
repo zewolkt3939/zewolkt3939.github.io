@@ -2,19 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Bao Nguyen | Cybersecurity Student
+title: Bao Truong Nguyen | Cybersecurity Portfolio
 first_name: Bao
 middle_name: Truong
 last_name: Nguyen
 contact_note: >
-  Cybersecurity student in Vietnam, open to internship and entry-level opportunities in security, cloud, and infrastructure roles.
+  Cybersecurity student in Vietnam seeking internship and entry-level opportunities in security, cloud, and infrastructure.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Vietnamese cybersecurity student portfolio focused on hands-on learning in Linux, networking, AWS cloud, web security, and security automation.
+  Portfolio of Bao Truong Nguyen, a cybersecurity student in Vietnam building hands-on foundations in Linux, networking, AWS, web security, and security operations.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: cybersecurity student, vietnam, linux, networking, aws, cloud security, web security, security automation, home lab, devops fundamentals
+  Built and maintained by Bao Truong Nguyen with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: Bao Truong Nguyen, cybersecurity student, Vietnam, Linux, networking, AWS, cloud security, web security, security operations, home lab
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🛡️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -223,6 +221,8 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _books/
+  - _teachings/
   - purgecss.config.js
   - README.md
   - readme_preview/

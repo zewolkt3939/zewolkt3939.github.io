@@ -1,18 +1,17 @@
 ---
 layout: page
 title: Tooling and Workflow Notes
-description: Documented toolchain and workflows used for cybersecurity learning and project execution.
-img: assets/img/6.jpg
+description: A maintained reference of the tools and repeatable workflows used throughout my cybersecurity learning.
 importance: 9
 category: infrastructure
 ---
 
-I maintain practical notes on tools and workflows I use regularly.
+I keep practical notes so that my lab work remains consistent, reproducible, and easy to explain.
 
 ## Tooling scope
 
-- Networking: Cisco Packet Tracer, Wireshark, tcpdump
-- Security: Burp Suite, Nmap, Gobuster, FFUF, John the Ripper, Responder
-- Dev and ops: VS Code, Git, GitHub, Docker, Linux, AWS
+- **Networking:** Cisco Packet Tracer, Wireshark, tcpdump
+- **Security:** Burp Suite, Nmap, Gobuster, FFUF, John the Ripper, Responder
+- **Development and operations:** VS Code, Git, GitHub, Docker, Linux, AWS
 
-Keeping these notes current helps me onboard faster into new labs and projects.
+Maintaining these notes helps me improve the quality of each new lab and onboard quickly into unfamiliar scenarios.

@@ -1,19 +1,17 @@
 ---
 layout: page
 title: Security Automation Scripts
-description: Small Python and Bash scripts for repeatable security and infrastructure tasks.
-img: assets/img/9.jpg
+description: Small Python and Bash utilities for repeatable security and infrastructure tasks.
 importance: 8
 category: cybersecurity
 ---
 
-I use lightweight automation to reduce repetitive manual work.
+I use lightweight automation to reduce repetitive manual work and make lab workflows easier to repeat.
 
 ## Typical use cases
 
-- Quick system checks
-- Network reconnaissance helpers
-- Workflow cleanup tasks
-- Learning-oriented parsing and reporting scripts
+- Quick system checks and environment validation
+- Network reconnaissance helpers in authorized labs
+- Parsing, reporting, and workflow-cleanup tasks
 
-The main objective is consistency and efficiency, not complexity.
+The objective is dependable, understandable automation rather than unnecessary complexity.

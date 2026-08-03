@@ -4,7 +4,7 @@ cv:
   email: ""
   location: Vietnam
   image: ""
-  summary: Vietnamese cybersecurity student with a hands-on focus on networking, Linux, cloud, and security operations fundamentals.
+  summary: Hands-on cybersecurity student building foundations in Linux, networking, AWS, web security, and security operations. Seeking internship and entry-level opportunities in security, cloud, and infrastructure.
 
   social_networks:
     - network: GitHub
@@ -17,75 +17,75 @@ cv:
         area: Cybersecurity
         studyType: Undergraduate Program
         start_date: Present
-        end_date: Expected graduation in ~1 year
+        end_date: Expected graduation in approximately one year
         highlights:
-          - Focused on practical cybersecurity learning through labs and self-study.
-          - Continually documents technical progress and lab outcomes.
+          - Builds practical skills through self-directed labs alongside academic study.
+          - Documents lab outcomes, troubleshooting notes, and next learning steps.
 
     Experience:
-      - company: Personal Home Lab
+      - company: Independent Home Lab
         position: Security and Infrastructure Lab Builder
         location: Self-directed
         start_date: Ongoing
         end_date: Present
-        summary: Designed and maintained hands-on environments for cybersecurity, networking, Linux, and cloud practice.
+        summary: Builds repeatable environments for cybersecurity, networking, Linux, and cloud practice.
         highlights:
-          - Built Docker and VMware labs for Linux administration and web service deployment.
-          - Practiced WordPress and Apache deployment to support web security testing scenarios.
-          - Used AWS EC2 environments to practice secure server and networking configuration.
+          - Uses Docker and VMware environments for Linux administration, service deployment, and troubleshooting.
+          - Maintains WordPress and Apache scenarios for authorized web-security testing and log review.
+          - Uses AWS EC2 and VPC components to practice identity, network controls, and server baseline hardening.
 
     Projects:
-      - name: Portfolio Website
-        summary: Hosted and maintained a GitHub Pages portfolio customized from an open-source template.
+      - name: Docker WordPress Security Lab
+        summary: Repeatable local WordPress and Apache environment for web-security and Linux operations practice.
         highlights:
-          - Managed updates with Git and GitHub workflows.
-          - Uses the site to document learning journey and practical projects.
-      - name: Docker WordPress Lab
-        summary: Built repeatable local WordPress environments using Docker and Apache.
-        highlights:
-          - Used for web security testing and Linux service administration practice.
+          - Practices service setup, troubleshooting, configuration review, and baseline hardening.
+          - Uses controlled scenarios to connect vulnerability concepts with mitigation and verification.
       - name: AWS Practice Environment
-        summary: Deployed EC2-based services and practiced VPC-level network controls.
+        summary: EC2 and VPC environment for cloud networking and security-control practice.
         highlights:
-          - Focused on IAM, Security Groups, Linux server administration, and baseline hardening.
+          - Focuses on IAM, Security Groups, Linux server administration, and least-privilege thinking.
+      - name: CCNA Networking Lab
+        summary: Hands-on routing and switching labs that reinforce core network-security concepts.
+        highlights:
+          - Practices VLANs, inter-VLAN routing, STP/RSTP, OSPF, NAT, ACLs, DHCP, and DNS.
 
     Skills:
-      - name: Cybersecurity
-        level: Learning
-        keywords: "Network Security, Linux Security, Web Security, Authentication, Authorization, Encryption, PKI, VPN, Secure Network Design"
       - name: Networking
-        level: Learning
-        keywords: "OSI, TCP/IP, VLAN, Routing, STP/RSTP, EtherChannel, OSPF, NAT, ACL, DHCP, DNS, QoS, SNMP"
+        level: Hands-on foundations
+        keywords: "OSI, TCP/IP, VLANs, Routing, STP/RSTP, EtherChannel, OSPF, NAT, ACLs, DHCP, DNS, QoS, SNMP"
       - name: Linux and Infrastructure
-        level: Daily Practice
-        keywords: "Bash, SSH, Permissions, systemd, Package Management, Firewall, iptables, Docker"
+        level: Daily practice
+        keywords: "Bash, SSH, Permissions, systemd, Package Management, Process Management, Firewall, iptables, Docker, VMware"
       - name: Cloud
-        level: Learning
-        keywords: "AWS EC2, IAM, VPC, Security Groups, Elastic IP, Regions, Availability Zones"
-      - name: Security Tooling
-        level: Practice
-        keywords: "Burp Suite, Nmap, Gobuster, FFUF, Wireshark, tcpdump, Wazuh, Elastic Stack"
-      - name: Programming
-        level: Basic
-        keywords: "Python, Bash, Automation Scripts"
+        level: Hands-on foundations
+        keywords: "AWS EC2, IAM, VPC, Security Groups, Elastic IP, Regions, Availability Zones, Shared Responsibility"
+      - name: Application and Network Security
+        level: Structured practice
+        keywords: "Burp Suite, Nmap, Gobuster, FFUF, Wireshark, tcpdump, Authentication, Authorization, Web Security"
+      - name: Security Operations
+        level: Introductory practice
+        keywords: "Wazuh, Elastic Stack, Splunk, Microsoft Sentinel concepts, Log Analysis, Alert Triage"
+      - name: Automation
+        level: Foundations
+        keywords: "Python, Bash, Security and Infrastructure Scripts"
 
     Languages:
       - name: Vietnamese
-        summary: "Native"
+        summary: Native
       - name: English
-        summary: "Working proficiency (TOEIC ~665), comfortable with technical documentation"
-
-    Interests:
-      - name: Technical Interests
-        icon: fa-solid fa-tag
-        keywords: "Cybersecurity, Linux, Cloud, AWS, Networking, Infrastructure, Docker, Automation, Web Security, Home Labs, Open Source, Technical Documentation"
+        summary: Working proficiency (TOEIC approximately 665); comfortable with technical documentation
 
     Certificates:
-      - name: CCNA Study Path (In Progress)
+      - name: CCNA Study Path (in progress)
         date: Present
         issuer: Self-study
         icon: fa-solid fa-network-wired
-      - name: PortSwigger Web Security Academy (Ongoing Labs)
+      - name: PortSwigger Web Security Academy (ongoing labs)
         date: Present
         issuer: PortSwigger
         icon: fa-solid fa-shield-halved
+
+    Interests:
+      - name: Technical interests
+        icon: fa-solid fa-tag
+        keywords: "Cybersecurity, Linux, Cloud, AWS, Networking, Infrastructure, Docker, Automation, Web Security, Home Labs, Open Source, Technical Documentation"
