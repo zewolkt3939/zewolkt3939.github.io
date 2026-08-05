@@ -3,8 +3,8 @@ layout: page
 permalink: /research/
 title: focus
 description: Technical areas currently being developed through structured study and hands-on labs.
-nav: true
-nav_order: 2
+nav: false
+published: false
 ---
 
 ## Current focus areas

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-05-18 19:30:00+0700
+date: 2025-12-15 09:00:00+0700
 inline: true
 related_posts: false
 ---
 
-Completed a new AWS practice round focused on EC2 deployment, Security Groups, and Linux server baseline hardening.
+Finished Cybersecurity Research Internship at **Fore-Z** (WordPress plugin code review & manual vulnerability assessment, Sep 2024 – Sep 2025).

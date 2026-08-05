@@ -3,7 +3,8 @@ layout: default
 permalink: /blog/
 title: journal
 nav: true
-nav_order: 1
+nav_order: 2
+description: Short technical notes from labs and study — written so a hiring manager can skim in under two minutes.
 pagination:
   enabled: true
   collection: posts

@@ -1,28 +1,55 @@
 cv:
   name: Bao Truong Nguyen
-  label: Cybersecurity Student
-  email: ""
-  location: Vietnam
+  label: Final-year Cybersecurity Student
+  email: bigzero3939@gmail.com
+  phone: "+84 937 420 973"
+  location: Da Nang, Vietnam
+  website: https://truongbao.id.vn
   image: ""
-  summary: Hands-on cybersecurity student building foundations in Linux, networking, AWS, web security, and security operations. Seeking internship and entry-level opportunities in security, cloud, and infrastructure.
+  summary: >
+    Final-year Cybersecurity student (Duy Tan University) with internships at LG Electronics R&D Vietnam
+    (automotive/webOS security) and Fore-Z (WordPress plugin security research). Capstone AI-APW delivers
+    Wazuh/Suricata alert prioritization with Python, correlation, LLM-assisted triage, and Telegram SOC notify.
+    Seeking Security Engineer, AI Security Engineer, or SOC/detection roles.
 
   social_networks:
     - network: GitHub
       username: zewolkt3939
+    - network: LinkedIn
+      username: nguyen-truong-bao-347437250
 
   sections:
     Education:
-      - institution: University in Vietnam
-        location: Vietnam
-        area: Cybersecurity
+      - institution: Duy Tan University
+        location: Da Nang, Vietnam
+        area: Cyber Security
         studyType: Undergraduate Program
-        start_date: Present
-        end_date: Expected graduation in approximately one year
+        start_date: ""
+        end_date: Final year
         highlights:
+          - Capstone: AI-Powered Alert Prioritization for Wazuh (AI-APW).
           - Builds practical skills through self-directed labs alongside academic study.
-          - Documents lab outcomes, troubleshooting notes, and next learning steps.
 
     Experience:
+      - company: LG Electronics R&D Vietnam (LG DUT Cyber Security Lab)
+        position: Automotive Cybersecurity Intern
+        location: Da Nang, Vietnam
+        start_date: 2026-07
+        end_date: 2026-08
+        summary: Linux, webOS, Python, Scapy, iptables, ip6tables, nftables, Docker.
+        highlights:
+          - Developed and validated Linux-based automotive cybersecurity solutions on webOS.
+          - Built Python (Scapy) tools for packet generation and firewall validation.
+          - Configured and tested firewall, IPv4/IPv6, VLAN, unicast, multicast, and packet analysis.
+      - company: Fore-Z
+        position: Cybersecurity Research Intern
+        location: Vietnam
+        start_date: 2024-09
+        end_date: 2025-09
+        summary: WordPress, PHP, Burp Suite.
+        highlights:
+          - Reviewed WordPress plugin source code to identify security vulnerabilities.
+          - Performed manual vulnerability assessments and documented remediation reports.
       - company: Independent Home Lab
         position: Security and Infrastructure Lab Builder
         location: Self-directed
@@ -30,68 +57,75 @@ cv:
         end_date: Present
         summary: Builds repeatable environments for cybersecurity, networking, Linux, and cloud practice.
         highlights:
-          - Uses Docker and VMware environments for Linux administration, service deployment, and troubleshooting.
+          - Uses Docker and VMware for Linux administration, service deployment, and troubleshooting.
           - Maintains WordPress and Apache scenarios for authorized web-security testing and log review.
-          - Uses AWS EC2 and VPC components to practice identity, network controls, and server baseline hardening.
+          - Uses AWS EC2 and VPC components to practice identity, network controls, and server hardening.
 
     Projects:
       - name: AI-Powered Alert Prioritization for Wazuh (AI-APW)
         summary: Capstone project that prioritizes and correlates Wazuh and Suricata alerts with a Python triage pipeline, LLM-assisted analysis, and Telegram notifications.
+        url: https://github.com/zewolkt3939/-AI-Powered-Alert-Prioritization-for-Wazuh-
         highlights:
-          - Contributed to backend development, AI-pipeline development, and DevOps/system integration.
-          - Validated an end-to-end SQL injection scenario across network and host telemetry in a controlled lab.
-          - Documented a 3-7 second average detection-to-notification latency and 100% Telegram delivery during the test window.
+          - Backend & DevOps: FastAPI services to collect, normalize, and process Wazuh Indexer events.
+          - AI-assisted prioritization for SQLi, XSS, brute force, LFI, and DoS-style events.
+          - Event correlation across source IPs, destinations, and timelines; Telegram high-severity alerts.
+      - name: AI-Powered Malware Analysis Platform
+        summary: AI-assisted malware analysis combining static and dynamic analysis for detection and classification.
+        url: https://github.com/zewolkt3939/AI-Powered-Malware-Analysis-Platform
+        highlights:
+          - Python feature-extraction pipelines and ML models for threat prediction.
+          - Sandbox result collection and structured security reports.
+          - Behavioral visualization and MITRE ATT&CK mapping for analysts.
       - name: Docker WordPress Security Lab
         summary: Repeatable local WordPress and Apache environment for web-security and Linux operations practice.
         highlights:
-          - Practices service setup, troubleshooting, configuration review, and baseline hardening.
-          - Uses controlled scenarios to connect vulnerability concepts with mitigation and verification.
+          - Docker service setup, Apache/WordPress deployment, controlled testing and hardening.
       - name: AWS Practice Environment
         summary: EC2 and VPC environment for cloud networking and security-control practice.
         highlights:
-          - Focuses on IAM, Security Groups, Linux server administration, and least-privilege thinking.
-      - name: CCNA Networking Lab
-        summary: Hands-on routing and switching labs that reinforce core network-security concepts.
-        highlights:
-          - Practices VLANs, inter-VLAN routing, STP/RSTP, OSPF, NAT, ACLs, DHCP, and DNS.
+          - IAM, Security Groups, Linux baseline hardening, least-privilege thinking.
 
     Skills:
+      - name: Security
+        level: Hands-on
+        keywords: "Wazuh SIEM, Elastic Stack, Suricata IDS/IPS, pfSense, Burp Suite, Wireshark, Nmap, Log Analysis, MITRE ATT&CK"
       - name: Networking
         level: Hands-on foundations
-        keywords: "OSI, TCP/IP, VLANs, Routing, STP/RSTP, EtherChannel, OSPF, NAT, ACLs, DHCP, DNS, QoS, SNMP"
-      - name: Linux and Infrastructure
-        level: Daily practice
-        keywords: "Bash, SSH, Permissions, systemd, Package Management, Process Management, Firewall, iptables, Docker, VMware"
-      - name: Cloud
-        level: Hands-on foundations
-        keywords: "AWS EC2, IAM, VPC, Security Groups, Elastic IP, Regions, Availability Zones, Shared Responsibility"
-      - name: Application and Network Security
+        keywords: "TCP/IP, OSI, VLAN, Inter-VLAN, STP, OSPF, ACL, NAT/PAT, DHCP, DNS, Subnetting, VLSM, DMZ, Segmentation"
+      - name: Programming
+        level: Practical
+        keywords: "Python, SQL, Bash, Java, PHP, HTML, JavaScript"
+      - name: Artificial Intelligence
+        level: Applied foundations
+        keywords: "Prompt Engineering, LLMs, Transformers (fundamentals), Pandas, NumPy"
+      - name: Backend and DevOps
+        level: Hands-on
+        keywords: "FastAPI, REST API, Docker, Git, GitHub, Linux, VMware, AWS"
+      - name: Application Security
         level: Structured practice
-        keywords: "Burp Suite, Nmap, Gobuster, FFUF, Wireshark, tcpdump, Authentication, Authorization, Web Security"
-      - name: Security Operations
-        level: Introductory practice
-        keywords: "Wazuh, Elastic Stack, Splunk, Microsoft Sentinel concepts, Log Analysis, Alert Triage"
-      - name: Automation
-        level: Foundations
-        keywords: "Python, Bash, Security and Infrastructure Scripts"
+        keywords: "Web pentest, Burp Suite, Authentication, Authorization, WordPress/plugin review"
 
     Languages:
       - name: Vietnamese
         summary: Native
       - name: English
-        summary: Working proficiency (TOEIC approximately 665); comfortable with technical documentation
+        summary: TOEIC 685 (B2); reads technical documentation and communicates with teams
 
     Certificates:
-      - name: CCNA Study Path (in progress)
-        date: Present
-        issuer: Self-study
+      - name: Google Cybersecurity Professional Certificate
+        date: 2024-12
+        issuer: Google
+        icon: fa-solid fa-certificate
+      - name: Hack The Box Junior Cybersecurity Analyst Path
+        date: Completed
+        issuer: Hack The Box
+        icon: fa-solid fa-flag
+      - name: Cisco Certified Network Associate (CCNA)
+        date: In progress (~80%)
+        issuer: Cisco
         icon: fa-solid fa-network-wired
-      - name: PortSwigger Web Security Academy (ongoing labs)
-        date: Present
-        issuer: PortSwigger
-        icon: fa-solid fa-shield-halved
 
     Interests:
       - name: Technical interests
         icon: fa-solid fa-tag
-        keywords: "Cybersecurity, Linux, Cloud, AWS, Networking, Infrastructure, Docker, Automation, Web Security, Home Labs, Open Source, Technical Documentation"
+        keywords: "AI Security, SOC operations, Threat detection, Linux, Networking, Malware analysis, Embedded/automotive security, Home labs"

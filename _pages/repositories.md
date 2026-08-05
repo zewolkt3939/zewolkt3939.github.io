@@ -2,10 +2,12 @@
 layout: page
 permalink: /repositories/
 title: GitHub
-description: Code, notes, and portfolio work documenting my cybersecurity and infrastructure learning journey.
-nav: true
-nav_order: 4
+description: Public repositories linked from this portfolio — AI-APW, malware analysis, and site source.
+nav: false
+published: true
 ---
+
+Primary project write-ups live under [Projects]({{ '/projects/' | relative_url }}). This page is a quick GitHub snapshot.
 
 {% if site.data.repositories.github_users %}
 

@@ -1,15 +1,16 @@
 {
   "basics": {
     "name": "Bao Truong Nguyen",
-    "label": "Cybersecurity Student",
+    "label": "Final-year Cybersecurity Student",
     "image": "",
-    "email": "",
-    "phone": "",
-    "summary": "Hands-on cybersecurity student building foundations in Linux, networking, AWS, web security, and security operations. Seeking internship and entry-level opportunities in security, cloud, and infrastructure.",
+    "email": "bigzero3939@gmail.com",
+    "phone": "+84 937 420 973",
+    "url": "https://truongbao.id.vn",
+    "summary": "Final-year Cybersecurity student (Duy Tan University) with internships at LG Electronics R&D Vietnam (automotive/webOS security) and Fore-Z (WordPress plugin security research). Capstone AI-APW: Wazuh/Suricata alert prioritization with Python, correlation, LLM-assisted triage, and Telegram SOC notifications. Seeking Security Engineer, AI Security Engineer, or SOC/detection roles.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "",
+      "city": "Da Nang",
       "countryCode": "VN",
       "region": "Vietnam"
     },
@@ -18,88 +19,146 @@
         "network": "GitHub",
         "username": "zewolkt3939",
         "url": "https://github.com/zewolkt3939"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "nguyen-truong-bao-347437250",
+        "url": "https://www.linkedin.com/in/nguyen-truong-bao-347437250"
       }
     ]
   },
   "work": [
     {
+      "name": "LG Electronics R&D Vietnam (LG DUT Cyber Security Lab)",
+      "position": "Automotive Cybersecurity Intern",
+      "location": "Da Nang, Vietnam",
+      "startDate": "2026-07",
+      "endDate": "2026-08",
+      "summary": "Linux, webOS, Python, Scapy, iptables, ip6tables, nftables, Docker.",
+      "highlights": [
+        "Developed and validated Linux-based automotive cybersecurity solutions on webOS.",
+        "Built Python (Scapy) tools for packet generation and firewall validation.",
+        "Configured and tested firewall, IPv4/IPv6, VLAN, unicast, multicast, and packet analysis."
+      ]
+    },
+    {
+      "name": "Fore-Z",
+      "position": "Cybersecurity Research Intern",
+      "location": "Vietnam",
+      "startDate": "2024-09",
+      "endDate": "2025-09",
+      "summary": "WordPress, PHP, Burp Suite.",
+      "highlights": [
+        "Reviewed WordPress plugin source code to identify security vulnerabilities.",
+        "Performed manual vulnerability assessments and documented remediation reports."
+      ]
+    },
+    {
       "name": "Independent Home Lab",
       "position": "Security and Infrastructure Lab Builder",
       "location": "Self-directed",
       "startDate": "",
-      "endDate": "",
+      "endDate": "Present",
       "summary": "Builds repeatable environments for cybersecurity, networking, Linux, and cloud practice.",
       "highlights": [
-        "Uses Docker and VMware environments for Linux administration, service deployment, and troubleshooting.",
+        "Uses Docker and VMware for Linux administration, service deployment, and troubleshooting.",
         "Maintains WordPress and Apache scenarios for authorized web-security testing and log review.",
-        "Uses AWS EC2 and VPC components to practice identity, network controls, and server baseline hardening."
+        "Uses AWS EC2 and VPC components to practice identity, network controls, and server hardening."
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University in Vietnam",
-      "location": "Vietnam",
+      "institution": "Duy Tan University",
+      "location": "Da Nang, Vietnam",
       "url": "",
-      "area": "Cybersecurity",
+      "area": "Cyber Security",
       "studyType": "Undergraduate Program",
       "startDate": "",
-      "endDate": "Expected graduation in approximately one year",
+      "endDate": "Final year",
       "score": "",
       "courses": [],
       "highlights": [
-        "Builds practical skills through self-directed labs alongside academic study.",
-        "Documents lab outcomes, troubleshooting notes, and next learning steps."
+        "Capstone: AI-Powered Alert Prioritization for Wazuh (AI-APW).",
+        "Builds practical skills through self-directed labs alongside academic study."
       ]
     }
   ],
   "awards": [],
   "certificates": [
     {
-      "name": "CCNA Study Path (in progress)",
-      "date": "",
-      "issuer": "Self-study",
-      "icon": "fa-solid fa-network-wired"
+      "name": "Google Cybersecurity Professional Certificate",
+      "date": "2024-12",
+      "issuer": "Google",
+      "icon": "fa-solid fa-certificate"
     },
     {
-      "name": "PortSwigger Web Security Academy (ongoing labs)",
-      "date": "",
-      "issuer": "PortSwigger",
-      "icon": "fa-solid fa-shield-halved"
+      "name": "Hack The Box Junior Cybersecurity Analyst Path",
+      "date": "Completed",
+      "issuer": "Hack The Box",
+      "icon": "fa-solid fa-flag"
+    },
+    {
+      "name": "Cisco Certified Network Associate (CCNA)",
+      "date": "In progress (~80%)",
+      "issuer": "Cisco",
+      "icon": "fa-solid fa-network-wired"
     }
   ],
   "publications": [],
   "skills": [
     {
+      "name": "Security",
+      "level": "Hands-on",
+      "icon": "fa-solid fa-shield-halved",
+      "keywords": [
+        "Wazuh SIEM",
+        "Elastic Stack",
+        "Suricata",
+        "pfSense",
+        "Burp Suite",
+        "Wireshark",
+        "Nmap",
+        "Log Analysis",
+        "MITRE ATT&CK"
+      ]
+    },
+    {
       "name": "Networking",
       "level": "Hands-on foundations",
       "icon": "fa-solid fa-network-wired",
-      "keywords": ["OSI", "TCP/IP", "VLANs", "Routing", "STP/RSTP", "EtherChannel", "OSPF", "NAT", "ACLs", "DHCP", "DNS", "QoS", "SNMP"]
+      "keywords": [
+        "TCP/IP",
+        "OSI",
+        "VLAN",
+        "STP",
+        "OSPF",
+        "ACL",
+        "NAT/PAT",
+        "DHCP",
+        "DNS",
+        "Subnetting",
+        "DMZ"
+      ]
     },
     {
-      "name": "Linux and Infrastructure",
-      "level": "Daily practice",
+      "name": "Programming",
+      "level": "Practical",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "SQL", "Bash", "Java", "PHP", "HTML", "JavaScript"]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "level": "Applied foundations",
+      "icon": "fa-solid fa-robot",
+      "keywords": ["Prompt Engineering", "LLMs", "Transformers", "Pandas", "NumPy"]
+    },
+    {
+      "name": "Backend and DevOps",
+      "level": "Hands-on",
       "icon": "fa-solid fa-server",
-      "keywords": ["Bash", "SSH", "Permissions", "systemd", "Package Management", "Process Management", "Firewall", "iptables", "Docker", "VMware"]
-    },
-    {
-      "name": "Cloud",
-      "level": "Hands-on foundations",
-      "icon": "fa-solid fa-cloud",
-      "keywords": ["AWS EC2", "IAM", "VPC", "Security Groups", "Elastic IP", "Regions", "Availability Zones", "Shared Responsibility"]
-    },
-    {
-      "name": "Application and Network Security",
-      "level": "Structured practice",
-      "icon": "fa-solid fa-shield-halved",
-      "keywords": ["Burp Suite", "Nmap", "Gobuster", "FFUF", "Wireshark", "tcpdump", "Authentication", "Authorization", "Web Security"]
-    },
-    {
-      "name": "Security Operations",
-      "level": "Introductory practice",
-      "icon": "fa-solid fa-magnifying-glass-chart",
-      "keywords": ["Wazuh", "Elastic Stack", "Splunk", "Microsoft Sentinel concepts", "Log Analysis", "Alert Triage"]
+      "keywords": ["FastAPI", "REST API", "Docker", "Git", "Linux", "VMware", "AWS"]
     }
   ],
   "languages": [
@@ -110,7 +169,7 @@
     },
     {
       "language": "English",
-      "fluency": "Working proficiency (TOEIC approximately 665); comfortable with technical documentation",
+      "fluency": "TOEIC 685 (B2); technical documentation and team communication",
       "icon": ""
     }
   ],
@@ -119,17 +178,14 @@
       "name": "Technical interests",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Cybersecurity",
+        "AI Security",
+        "SOC operations",
+        "Threat detection",
         "Linux",
-        "Cloud",
-        "AWS",
         "Networking",
-        "Infrastructure",
-        "Automation",
-        "Web Security",
-        "Home Labs",
-        "Open Source",
-        "Technical Documentation"
+        "Malware analysis",
+        "Automotive security",
+        "Home labs"
       ]
     }
   ],
@@ -137,14 +193,27 @@
   "projects": [
     {
       "name": "AI-Powered Alert Prioritization for Wazuh (AI-APW)",
+      "url": "https://github.com/zewolkt3939/-AI-Powered-Alert-Prioritization-for-Wazuh-",
       "summary": "Capstone project that prioritizes and correlates Wazuh and Suricata alerts with a Python triage pipeline, LLM-assisted analysis, and Telegram notifications.",
       "highlights": [
-        "Backend development, AI-pipeline development, and DevOps/system integration",
-        "End-to-end SQL injection validation across network and host telemetry",
-        "3-7 second average detection-to-notification latency in the controlled test"
+        "Backend & DevOps: FastAPI services for Wazuh Indexer event collection and normalization",
+        "AI-assisted prioritization for SQLi, XSS, brute force, LFI, and DoS-style events",
+        "Event correlation and Telegram high-severity notifications"
       ],
-      "startDate": "2025-08-18",
-      "endDate": "2025-12-18"
+      "startDate": "2025-08",
+      "endDate": "2025-12"
+    },
+    {
+      "name": "AI-Powered Malware Analysis Platform",
+      "url": "https://github.com/zewolkt3939/AI-Powered-Malware-Analysis-Platform",
+      "summary": "AI-assisted malware analysis combining static and dynamic analysis for detection and classification.",
+      "highlights": [
+        "Python feature-extraction pipelines and ML models for threat prediction",
+        "Sandbox result collection and structured security reports",
+        "Behavioral visualization and MITRE ATT&CK mapping"
+      ],
+      "startDate": "",
+      "endDate": ""
     },
     {
       "name": "Docker WordPress Security Lab",
@@ -160,14 +229,11 @@
     {
       "name": "AWS Practice Environment",
       "summary": "EC2 and VPC environment for cloud networking and security-control practice.",
-      "highlights": ["IAM and least-privilege thinking", "Security Groups and network access rules", "Linux server baseline hardening"],
-      "startDate": "",
-      "endDate": ""
-    },
-    {
-      "name": "CCNA Networking Lab",
-      "summary": "Hands-on routing and switching labs that reinforce core network-security concepts.",
-      "highlights": ["VLANs and inter-VLAN routing", "STP/RSTP, OSPF, NAT, and ACLs", "DHCP and DNS behavior in segmented networks"],
+      "highlights": [
+        "IAM and least-privilege thinking",
+        "Security Groups and network access rules",
+        "Linux server baseline hardening"
+      ],
       "startDate": "",
       "endDate": ""
     }

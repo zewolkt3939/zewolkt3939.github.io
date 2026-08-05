@@ -7,12 +7,12 @@ first_name: Bao
 middle_name: Truong
 last_name: Nguyen
 contact_note: >
-  Cybersecurity student in Vietnam seeking internship and entry-level opportunities in security, cloud, and infrastructure.
+  Final-year cybersecurity student in Da Nang, Vietnam. Seeking Security Engineer / AI Security Engineer and related internship or entry-level roles.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Portfolio of Bao Truong Nguyen, a cybersecurity student in Vietnam building hands-on foundations in Linux, networking, AWS, web security, and security operations.
+  Portfolio of Bao Truong Nguyen (Nguyen Truong Bao), final-year cybersecurity student at Duy Tan University — automotive security, web pentest, SIEM, Linux networking, and AI-powered security tooling.
 footer_text: >
   Built and maintained by Bao Truong Nguyen with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Bao Truong Nguyen, cybersecurity student, Vietnam, Linux, networking, AWS, cloud security, web security, security operations, home lab
+keywords: Bao Truong Nguyen, Nguyen Truong Bao, cybersecurity, Duy Tan University, Da Nang, Wazuh, SIEM, web security, automotive cybersecurity, AI security, Linux, networking, AWS
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🛡️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -20,7 +20,7 @@ url: https://zewolkt3939.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+back_to_top: false # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -30,7 +30,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -89,7 +89,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 750px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -121,7 +121,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Security Learning Journal # blog_name will be displayed in your blog page
-blog_description: Notes from hands-on cybersecurity, Linux, networking, and AWS practice
+blog_description: Concise lab notes and study write-ups for hiring managers and collaborators
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -454,7 +454,7 @@ enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
+enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
